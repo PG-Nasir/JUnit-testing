@@ -6,8 +6,6 @@ import org.junit.runner.notification.Failure;
 public class TestRunner {
 
     public static void main(String[] args) {
-        String a="Hello Nasir, ";
-        System.out.println(a+ "All test result from main method");
         Result result = JUnitCore.runClasses(TestJunit.class);
 
         for (Failure failure : result.getFailures()) {
