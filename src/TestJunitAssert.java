@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 public class TestJunitAssert {
     @Test
-    public void testAdd() {
+    public void assertTestCase() {
         //test data
         int num = 5;
         String temp = null;
